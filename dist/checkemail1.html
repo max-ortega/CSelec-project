@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CheckyourEmail</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<style>
+    .bg{
+        background-color: #141C24;
+    }
+    .txt1{
+        top: 20%;
+        left: 5%;
+        font-size: 48px;
+        color: white;
+        height: 20%;
+        width: 40%;
+        position: absolute;
+        font-family: 'Lato', sans-serif;  
+    }
+    .txt2{
+        top: 40%;
+        left: 5%;
+        font-size: 24px;
+        color: white;
+        height: 20%;
+        width: 40%;
+        position: absolute;
+        font-family: 'Lato', sans-serif;   
+        text-align: justify; 
+    }
+    .rectangle{
+        top: 20%;
+        right: 15%;
+        height: 60%;
+        width: 35%;
+        position: absolute;
+        background-color: #F2F2F2;
+        border-radius: 10px;
+    }
+    input[type=password]{
+        width: 80%;
+        padding: 12px;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        border-radius: 10px;
+        background-color: #ececec;
+        margin-bottom: 2%;
+        font-family: 'Lato', sans-serif;
+    }
+    .rectangle form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 80%;
+    }
+    .btn{
+        width: 80%;
+        padding: 12px;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        border-radius: 10px;
+        background-color: #365464;
+        font-family: 'Lato', sans-serif;
+        color: white;
+        top: 65%;
+        position: absolute; 
+        left: 10%;
+    }
+    label { 
+        font-family: 'Lato', sans-serif;
+        font-size: 15px;
+        margin: 0 auto 1% auto;
+        display: block;
+        width: 80%;
+        text-align: left;
+    }
+</style>
+<body class="bg">
+    <div class="txt1">
+        <h1>Check your email</h1>
+    </div>
+    <div class="txt2">
+        <h5>
+            Create a new password. <br>
+            Ensure it differs from <br>
+            previous one for security
+        </h5>
+    </div>
+    <div class="rectangle">
+        <form action="">
+            <label for="Password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter your new password">
+            <label for="Confirm Password">Confirm Password</label>
+            <input type="password" id="password" name="password" placeholder="Re-enter password">
+            <button class="btn">Update Password</button>
+        </form>
+
+    
+</body>
+</html>
+
+

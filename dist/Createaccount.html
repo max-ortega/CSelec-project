@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<style>
+    .bg{
+        background-color: #141C24;
+    }
+    .rectangle{
+        top: 15%;
+        left: 25%;
+        height: 70%;
+        width: 50%;
+        position: absolute;
+        background-color: #F2F2F2;
+        border-radius: 10px;
+    }
+    input[type=username], input[type=password], input[type=email] {
+        width: 80%;
+        padding: 12px;
+        display: block;
+        margin: 0 auto 2% auto;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        border-radius: 10px;
+        background-color: #ececec;
+        font-family: 'Lato', sans-serif;        
+    }
+    .rectangle form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 80%;
+    }
+
+    label { 
+        font-family: 'Lato', sans-serif;
+        font-size: 15px;
+        margin: 0 auto 1% auto;
+        display: block;
+        width: 80%;
+        text-align: left;
+    }
+    .btn{
+        width: 80%;
+        padding: 12px;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        border-radius: 10px;
+        background-color: #365464;
+        font-family: 'Lato', sans-serif;
+        color: white;
+        top: 80%;
+        position: absolute; 
+        left: 10%;
+    }
+    h1{
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+        
+    }
+
+</style>
+<body class="bg">
+    <div class="rectangle">
+        <form>
+            <h1>Create your account</h1>
+            <label for="username">Username</label>
+            <input type="username" id="username" name="username" placeholder="Name">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password">
+            <button class="btn">Create Account</button>
+        </form>
+        
+
+</div>
+    
+    
+</body>
+</html>
